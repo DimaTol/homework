@@ -5,20 +5,20 @@
 
 Console.WriteLine("Введите любое число: "); 
 int numberN = Convert.ToInt32(Console.ReadLine()); 
-int startnumber = 1; 
+int startnumber = 0; 
  
 while (startnumber <= numberN) 
 { 
-    if (startnumber % 2 == 0) 
-{ 
-    Console.WriteLine($"Четное число:{startnumber}"); 
+    // if (startnumber % 2 == 0) четность числа
     startnumber +=2; 
-} 
-else  
-{ 
-startnumber++; 
+    Console.WriteLine($"Число:{startnumber}"); 
 }
-}
+
+// else  
+// { 
+// startnumber++;
+// }
+// }
 
 
 
