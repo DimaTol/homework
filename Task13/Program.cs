@@ -1,19 +1,18 @@
 ﻿//Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет. 
 //Выполнить с помощью числовых операций (целочисленное деление, остаток от деления).
-
-Console.WriteLine("Введите число: ");
-int num = Convert.ToInt32(Console.ReadLine());
-int nums = num;
-if (num < 100)
+Console.WriteLine("Введите любое число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+int num = number;
+if (number < 100)
 
     Console.WriteLine("Третьей цифры нет");
 
-else while (num > 1000)
+else while (number > 1000)
 
-    num = num / 10;
+    number = number / 10;
     
-if ((num < 1000) && (num > 99)) 
-Console.WriteLine($"Третья цифра числа {nums}: {num % 10}");
+if ((number < 1000) && (number > 99)) 
+Console.WriteLine($"Третья цифра числа {num}: {number % 10}");
 
 
 // Решение задачи через массив
