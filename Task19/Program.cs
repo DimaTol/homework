@@ -6,7 +6,7 @@
 // 12821 -> да
 // 23432 -> да
 
-Console.WriteLine ("Введите число : ");
+Console.Write ("Введите число : ");
 int number = Convert.ToInt32(Console.ReadLine());
 int lenght = number.ToString().Length;
 string str = number.ToString();
