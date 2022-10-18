@@ -16,7 +16,7 @@ void Cube(int number)
     while (count <= number)
     {
         int cube = count * count * count;
-        Console.WriteLine($"{count} |{cube}");
+        Console.WriteLine($"{count}|{cube}");
         count++;
     }
 }
